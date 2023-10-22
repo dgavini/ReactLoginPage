@@ -1,0 +1,20 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "Coding Assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "N?A"
+  },
+  "author": "Dheeraj",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-facebook": "^9.0.12"
+  }
+}

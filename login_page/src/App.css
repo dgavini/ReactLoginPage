@@ -1,0 +1,285 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-image: url("bg-01.jpg");
+  min-height: 100vh; 
+  background-size: cover;
+
+}
+
+.FacebookLogo {
+
+  min-height: 100vh; 
+  width: 1000px;
+  height: 1000px;
+  padding: 10px;
+  position: absolute;
+
+}
+.Sign-In {
+  background-color: hsl(240, 6%, 80%);
+  width: 475px;
+  height: 475px;
+  padding: 10px;
+  position: absolute;
+    top: 23%;
+    bottom: 20%;
+    left: 36%;
+    right: 88%;
+
+}
+.Facebook_Sign-In{
+  background-color: hsl(240, 81%, 48%);
+  color:aliceblue;
+  width: 180px;
+  height: 55px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    top: 24%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+
+}
+.Google_Sign-In{
+  background-color: hsl(0, 0%, 100%);
+  color:black;
+  width: 180px;
+  height: 55px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    top: 24%;
+    bottom: 20%;
+    left: 55%;
+    right: 88%;
+
+}
+
+
+
+.Username_Text{
+
+  color:black;
+  font-size: 13px;
+  width: 180px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  top: 38%;
+  bottom: 20%;
+  left: 0%;
+  right: 88%;
+
+}
+
+
+.Username_Input{
+
+  width: 350px;
+  height: 31px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+    top: 45%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+}
+
+
+.Password_Text{
+
+  color:black;
+  font-size: 13px;
+  width: 180px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  top: 53%;
+  bottom: 20%;
+  left: 0%;
+  right: 88%;
+
+}
+
+
+.Forgot_Text{
+
+  color:rgb(108, 104, 104);
+  font-size: 11px;
+  width: 180px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  top: 54%;
+  bottom: 20%;
+  left: 12%;
+  right: 88%;
+  text-decoration: underline;
+
+}
+.NotMember{
+
+  color:rgb(108, 104, 104);
+  font-size: 11px;
+  width: 180px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  top: 90%;
+  bottom: 20%;
+  left: 24%;
+  right: 88%;
+
+
+}
+.SignUp{
+
+  color:rgb(108, 104, 104);
+  font-size: 11px;
+  width: 180px;
+  height: 55px;
+  position: absolute;
+  border: none;
+  top: 90%;
+  bottom: 20%;
+  left: 40%;
+  right: 88%;
+  text-decoration: underline;
+
+}
+
+
+.Password_Input{
+
+  width: 350px;
+  height: 31px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+    top: 60%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+}
+
+.Button{
+  background-color: hsl(0, 100%, 1%);
+  color:rgb(253, 251, 251);
+  width: 390px;
+  height: 40px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    top: 80%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+
+}
+
+
+.Input_Fields{
+  width: 110px;
+  height: 35px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    top: 38%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.text-alignment {
+    top: 90%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+  
+}
+
+
+
+.Home_div{
+
+  background-color: hsl(0, 0%, 0%);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.table{
+  color: rgb(30, 89, 30);
+  width: 700px;
+  height: 90px;
+  position: absolute;
+  top:30%;
+  bottom: 50%;
+  left:27%;
+  right: 25%;
+  border: 1px solid #13511f; 
+
+}
+
+td {
+  border:1px solid  #13511f;
+}
+tr, th{
+  border:1px solid  #13511f;
+}
+.errorHandling{
+  color: red;
+  width: 350px;
+  height: 31px;
+  padding: 10px 20px;
+  position: absolute;
+  border: none;
+  border-radius: 4px;
+    top: 32%;
+    bottom: 20%;
+    left: 12%;
+    right: 88%;
+
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
